@@ -58,6 +58,4 @@ const Startserver = async () => {
   });
 };
 
-if (process.argv[1] && pathToFileURL(process.argv[1]).href === import.meta.url) {
   Startserver();
-}
